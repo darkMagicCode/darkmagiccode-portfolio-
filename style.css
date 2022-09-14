@@ -2,7 +2,6 @@
   --main-color: #20c997;
 }
 html {
-  font-size: 17;
   scroll-behavior: smooth;
 }
 * {
@@ -13,6 +12,11 @@ html {
 .main-color {
   color: var(--main-color);
 }
+.box-for-icon{
+  width:70px ;
+  height: 80px; ;
+}
+
 .bg-main-color {
   background-color: var(--main-color);
 }
@@ -40,7 +44,7 @@ html {
   color: rgba(0, 128, 0, 0.842);
 }
 header {
-  background-image: url(assets/asset\ 12.jpeg);
+  background-image: url(assets/slider-01.jpg);
   background-attachment: fixed;
   height: 100vh;
   background-blend-mode: overlay;
