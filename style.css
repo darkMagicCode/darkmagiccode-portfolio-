@@ -1,0 +1,294 @@
+:root {
+  --main-color: #20c997;
+}
+html {
+  font-size: 17;
+  scroll-behavior: smooth;
+}
+* {
+  font-family: Poppins, sans-serif;
+  text-transform: capitalize;
+
+}
+.main-color {
+  color: var(--main-color);
+}
+.bg-main-color {
+  background-color: var(--main-color);
+}
+.icon-scrol {
+  position: fixed;
+  right: 0;
+  top: 35%;
+  width: 2.5rem;
+  height: 2.5rem;
+
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: green;
+}
+.nav-pills .nav-link {
+  color: green;
+}
+.navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-item .nav-link:focus,
+.navbar-nav .nav-item .nav-link:hover{
+  color: rgba(0, 128, 0, 0.842);
+}
+header {
+  background-image: url(assets/101010.jpg);
+  background-attachment: fixed;
+  height: 100vh;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-position: center center ;
+  background-size: cover ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+main h2::after {
+  animation-name: typing;
+  content: " |";
+  color: white;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes typing {
+  0% {
+    content: " |";
+  }
+  1% {
+    content: " a |";
+  }
+  2% {
+    content: " ay |";
+  }
+  4% {
+    content: " aym |";
+  }
+  6% {
+    content: " ayma |";
+  }
+  8% {
+    content: " ayman |";
+  }
+  10% {
+    content: " ayman n |";
+  }
+  12% {
+    content: " ayman na |";
+  }
+  14% {
+    content: " ayman naw |";
+  }
+  16% {
+    content: " ayman naww |";
+  }
+  18% {
+    content: " ayman nawwa |";
+  }
+  20% {
+    content: " ayman nawwar |";
+  }
+  22% {
+    content: " ayman nawwa |";
+  }
+  24% {
+    content: " ayman naww |";
+  }
+  26% {
+    content: " ayman naw |";
+  }
+  28% {
+    content: " ayman na |";
+  }
+  30% {
+    content: " ayman n |";
+  }
+  32% {
+    content: " ayman |";
+  }
+  34% {
+    content: " ayma |";
+  }
+  36% {
+    content: " aym |";
+  }
+  38% {
+    content: " ay |";
+  }
+  
+  39% {
+    content: " a |";
+  }
+  39% {
+    content: " |";
+  }
+
+  41% {
+    content: " d |";
+  }
+  42% {
+    content: " de |";
+  }
+  44% {
+    content: " dev |";
+  }
+  46% {
+    content: " deve |";
+  }
+  48% {
+    content: " devel |";
+  }
+  50% {
+    content: " develo |";
+  }
+  52% {
+    content: " develop |";
+  }
+  54% {
+    content: " develope |";
+  }
+  56% {
+    content: " developer |";
+  }
+  58% {
+    content: " develope |";
+  }
+  60% {
+    content: " develop |";
+  }
+  62% {
+    content: " develo |";
+  }
+  64% {
+    content: " devel |";
+  }
+  68% {
+    content: " deve |";
+  }
+  70% {
+    content: " dev |";
+  }
+  72% {
+    content: " de |";
+  }
+  74% {
+    content: " d |";
+  }
+  76% {
+    content: " d |";
+  }
+  78% {
+    content: " de |";
+  }
+  80% {
+    content: " des |";
+  }
+  82% {
+    content: " desi |";
+  }
+  84% {
+    content: " desig |";
+  }
+  86% {
+    content: " desig |";
+  }
+  88% {
+    content: " design |";
+  }
+  90% {
+    content: " designe |";
+  }
+  92% {
+    content: " designer |";
+  }
+  93% {
+    content: " designe |";
+  }
+  94% {
+    content: " design |";
+  }
+  95% {
+    content: " desig |";
+  }
+  96% {
+    content: " desi |";
+  }
+  97% {
+    content: " des |";
+  }
+  98% {
+    content: " de |";
+  }
+  99% {
+    content: " d |";
+  }
+  100% {
+    content: " |";
+  }
+}
+.about {
+  padding: 4rem 0;
+  /* background-color: blanchedalmond; */
+}
+.about-me {
+  /* font-size: 6rem; */
+  text-align: center;
+  /* background-color: #3d4d45; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.about-me p {
+  color: #212529;
+}
+.about-me h2 {
+  opacity: 0.4;
+  color: rgba(0, 0, 0, 0.1);
+  font-size: calc(2rem + 8vw);
+  text-transform: uppercase;
+}
+.know-me-more {
+  font-size: 2.5rem;
+  font-weight: bold;
+  position: absolute;
+}
+.me {
+  border-bottom: 3px solid var(--main-color);
+  padding-bottom: 0.3rem;
+}
+.protfolio-img-hover:hover img{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.layer-protfolio{
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0;
+  transition: all 1s ease ;
+  -webkit-transition: all 1s ease ;
+  -moz-transition: all 1s ease ;
+  -ms-transition: all 1s ease ;
+  -o-transition: all 1s ease ;
+}
+.protfolio-img-hover:hover .layer-protfolio{
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+
+
+}
