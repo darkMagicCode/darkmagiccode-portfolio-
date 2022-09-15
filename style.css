@@ -1,5 +1,5 @@
 :root {
-  --main-color: #20c997;
+  --main-color:#198754;
 }
 
 
@@ -17,6 +17,7 @@
 * {
   font-family: Poppins, sans-serif;
   text-transform: capitalize;
+ 
 
 }
 .main-color {
@@ -40,10 +41,10 @@
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: var(--bs-nav-pills-link-active-color);
-  background-color: green;
+  background-color: var(--main-color);
 }
 .nav-pills .nav-link {
-  color: green;
+  color: var(--main-color);
 }
 .navbar-nav .nav-item .nav-link {
   color: white;
@@ -66,189 +67,7 @@ header {
   align-items: center;
 }
 
-
-main h2::after {
-  animation-name: typing;
-  content: " |";
-  color: white;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-}
-@keyframes typing {
-  0% {
-    content: " |";
-  }
-  1% {
-    content: " a |";
-  }
-  2% {
-    content: " ay |";
-  }
-  4% {
-    content: " aym |";
-  }
-  6% {
-    content: " ayma |";
-  }
-  8% {
-    content: " ayman |";
-  }
-  10% {
-    content: " ayman n |";
-  }
-  12% {
-    content: " ayman na |";
-  }
-  14% {
-    content: " ayman naw |";
-  }
-  16% {
-    content: " ayman naww |";
-  }
-  18% {
-    content: " ayman nawwa |";
-  }
-  20% {
-    content: " ayman nawwar |";
-  }
-  22% {
-    content: " ayman nawwa |";
-  }
-  24% {
-    content: " ayman naww |";
-  }
-  26% {
-    content: " ayman naw |";
-  }
-  28% {
-    content: " ayman na |";
-  }
-  30% {
-    content: " ayman n |";
-  }
-  32% {
-    content: " ayman |";
-  }
-  34% {
-    content: " ayma |";
-  }
-  36% {
-    content: " aym |";
-  }
-  38% {
-    content: " ay |";
-  }
-  
-  39% {
-    content: " a |";
-  }
-  39% {
-    content: " |";
-  }
-
-  41% {
-    content: " d |";
-  }
-  42% {
-    content: " de |";
-  }
-  44% {
-    content: " dev |";
-  }
-  46% {
-    content: " deve |";
-  }
-  48% {
-    content: " devel |";
-  }
-  50% {
-    content: " develo |";
-  }
-  52% {
-    content: " develop |";
-  }
-  54% {
-    content: " develope |";
-  }
-  56% {
-    content: " developer |";
-  }
-  58% {
-    content: " develope |";
-  }
-  60% {
-    content: " develop |";
-  }
-  62% {
-    content: " develo |";
-  }
-  64% {
-    content: " devel |";
-  }
-  68% {
-    content: " deve |";
-  }
-  70% {
-    content: " dev |";
-  }
-  72% {
-    content: " de |";
-  }
-  74% {
-    content: " d |";
-  }
-  76% {
-    content: " d |";
-  }
-  78% {
-    content: " de |";
-  }
-  80% {
-    content: " des |";
-  }
-  82% {
-    content: " desi |";
-  }
-  84% {
-    content: " desig |";
-  }
-  86% {
-    content: " desig |";
-  }
-  88% {
-    content: " design |";
-  }
-  90% {
-    content: " designe |";
-  }
-  92% {
-    content: " designer |";
-  }
-  93% {
-    content: " designe |";
-  }
-  94% {
-    content: " design |";
-  }
-  95% {
-    content: " desig |";
-  }
-  96% {
-    content: " desi |";
-  }
-  97% {
-    content: " des |";
-  }
-  98% {
-    content: " de |";
-  }
-  99% {
-    content: " d |";
-  }
-  100% {
-    content: " |";
-  }
-}
+/*  */
 .about {
   padding: 4rem 0;
   /* background-color: blanchedalmond; */
@@ -305,4 +124,7 @@ main h2::after {
   background-color: rgba(0, 0, 0, 0.7);
 
 
+}
+.typed-cursor {
+  color: var(--main-color);
 }
